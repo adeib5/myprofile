@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>About</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-anim text-white">
+
+<nav class="flex justify-between p-5 bg-black/40 backdrop-blur">
+<h1 class="text-purple-400 font-bold">Portfolio</h1>
+
+<ul class="flex gap-5">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="project.html">Project</a></li>
+<li><a href="experience.html">Experience</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<h1 class="text-3xl text-purple-400 text-center font-bold">Tentang Saya</h1>
+
+<p class="text-center mt-3 text-gray-300">
+Saya mahasiswa kelahiran 2005 yang berasal dari lampung dan hobby main game dan ingin menjadi game developer.
+</p>
+
+<p id="moreText" class="text-center mt-3 text-gray-300"></p>
+
+<div class="text-center mt-4">
+  <button onclick="showMore()" 
+  class="bg-gradient-to-r from-purple-500 to-pink-500 px-5 py-2 rounded-full hover:scale-105 transition">
+    Show More ✨
+  </button>
+</div>
+
+<div class="grid md:grid-cols-3 gap-4 mt-8">
+
+<div class="card text-center">
+<h2 class="text-purple-300 text-xl">alamat saya</h2>
+<p>Jl. Raden intan, tanggamus</p>
+</div>
+
+<div class="card text-center">
+<h2 class="text-purple-300 text-xl">Tools</h2>
+<p>GitHub, VS Code, Android Studio</p>
+</div>
+
+<div class="card text-center">
+<h2 class="text-purple-300 text-xl">Goal</h2>
+<p>Menjadi game Developer</p>
+</div>
+
+</div>
+
+<h2 class="mt-10 text-purple-300 text-xl">Skill Level</h2>
+
+<div class="space-y-5 mt-5">
+
+<div>
+<p class="flex justify-between">HTML <span>70%</span></p>
+<div class="bar"><div class="fill" style="width:70%"></div></div>
+</div>
+
+<div>
+<p class="flex justify-between">CSS <span>70%</span></p>
+<div class="bar"><div class="fill" style="width:70%"></div></div>
+</div>
+
+<div>
+<p class="flex justify-between">python <span>60%</span></p>
+<div class="bar"><div class="fill" style="width:60%"></div></div>
+</div>
+
+<div>
+<p class="flex justify-between">c++ <span>50%</span></p>
+<div class="bar"><div class="fill" style="width:50%"></div></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

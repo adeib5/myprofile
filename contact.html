@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-anim text-white">
+
+<nav class="flex justify-between items-center p-5 bg-black/40 backdrop-blur">
+<h1 class="text-purple-400 font-bold text-xl">Portfolio</h1>
+
+<ul class="flex gap-5">
+<li><a href="index.html" class="hover:text-purple-400">Home</a></li>
+<li><a href="about.html" class="hover:text-purple-400">About</a></li>
+<li><a href="project.html" class="hover:text-purple-400">Project</a></li>
+<li><a href="experience.html" class="hover:text-purple-400">Experience</a></li>
+<li><a href="contact.html" class="text-purple-400">Contact</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<h1 class="text-3xl text-purple-400 font-bold text-center">Contact Me</h1>
+
+<p class="text-center text-gray-300 mt-2">
+Silakan hubungi saya melalui sosial media atau kirim pesan langsung
+</p>
+
+<div class="mt-8 flex justify-center gap-6 flex-wrap">
+
+<a href="https://wa.me/6285783608242" target="_blank"
+class="social-icon bg-green-500">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+</a>
+
+<a href="https://www.instagram.com/adeibb_syahputra?igsh=bzlmZ3FlZWk2aWZp" target="_blank"
+class="social-icon bg-pink-500">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+</a>
+
+<a href="https://github.com/adeib5" target="_blank"
+class="social-icon bg-gray-700">
+<img src="https://cdn-icons-png.flaticon.com/512/733/733553.png">
+</a>
+
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=adeibsyahputra99@gmail.com" target="_blank"
+class="social-icon bg-purple-600">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732200.png">
+</a>
+
+</div>
+
+<div class="mt-10 max-w-md mx-auto">
+
+<form onsubmit="return validasiForm()" class="space-y-4">
+
+<input id="nama" class="input" placeholder="Nama">
+<input id="email" class="input" placeholder="Email">
+<textarea id="pesan" class="input" placeholder="Pesan"></textarea>
+
+<button class="btn-ungu w-full">Kirim</button>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
